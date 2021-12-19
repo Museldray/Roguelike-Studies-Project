@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - PlayerBullet
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -11,14 +14,14 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Player Bullets
+  - Enemies
+  - Enemy Bullets
+  - Breakable
+  - IgnoreBullets
+  - Pickups
+  - RoomLayout
   - 
   - 
   - 
@@ -40,6 +43,21 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 261404309
+    locked: 0
+  - name: Objects
+    uniqueID: 620741533
+    locked: 0
+  - name: Pickups
+    uniqueID: 2047091609
+    locked: 0
+  - name: Enemies
+    uniqueID: 3574652093
+    locked: 0
+  - name: Bullets
+    uniqueID: 1970137947
     locked: 0
   - name: Player
     uniqueID: 1408343009
